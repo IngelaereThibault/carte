@@ -33,6 +33,7 @@ var villes = { // Seules les villes ajoutées dans ce tableau sont affichées su
   "Angres": {"lat": 50.410, "lon": 2.757},
   "Marseille":{ "lat":43.300, "lon": 5.400 },
   "Dunkerque":{ "lat":51.034368, "lon": 2.376776 },
+  "Nice":{ "lat":43.7031, "lon": 7.2661 },
 };
 
 window.onload = function(){
@@ -199,6 +200,29 @@ window.onload = function(){
         </div>
       </div>
     </div>
+
+    <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
+      <div id="ville_Nice" class="card bg-dark m-2">
+        <!--  L'id de la forme ville_A est nécessaire pour que le lien vers
+              la ville A fonctionne. Pensez à ajouter les coordonnées de A
+              dans le tableau ville, en début de fichier -->
+        <div class="card-header">
+          <div class="card-title h5">Nice</div>
+          <div class="card-subtitle text-gray">Capitale de la région PACA</div>
+        </div>
+        <div class="card-image">
+          <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
+          <img src="vendome-nice-.jpg" class="img-responsive">
+        </div>
+        <div class="card-body bg-secondary text-dark">
+          Nice est la capitale du département des Alpes-Maritimes sur la Côte d'Azur. Elle est située sur le littoral de galets de la baie des Anges. 
+          Fondée par les Grecs puis prisée par l'élite européenne au XIXe siècle, la ville attire l'attention des artistes depuis longtemps. 
+          Le musée Henri Matisse est consacré au parcours artistique du peintre niçois.
+        </div>
+      </div>
+    </div>
+
+
 
     <p class="footer bg-secondary text-center">
   Site réalisé avec <a href="https://picturepan2.github.io/spectre/">Spectre CSS.</a>
