@@ -32,8 +32,10 @@ var villes = { // Seules les villes ajoutées dans ce tableau sont affichées su
   "Bayonne": { "lat": 43.500, "lon": -1.467 },
   "Angres": {"lat": 50.410, "lon": 2.757},
   "Marseille":{ "lat":43.300, "lon": 5.400 },
+  "Nemours": { "lat":48.267151684741144, "lon": 2.6994020451843013},
   "Dunkerque":{ "lat":51.034368, "lon": 2.376776 },
   "Strasbourg":{ "lat":48.5839200, "lon": 7.7455300 },
+  "Arras": { "lat": 50.293974597340544, "lon": 2.7680332541245694},
 };
 
 window.onload = function(){
@@ -134,9 +136,27 @@ window.onload = function(){
         </div>
       </div>
 
+        <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
+        <div id="ville_Arras" class="card bg-dark m-2">
+          <!--  L'id de la forme ville_A est nécessaire pour que le lien vers
+                la ville A fonctionne. Pensez à ajouter les coordonnées de A
+                dans le tableau ville, en début de fichier -->
+          <div class="card-header">
+            <div class="card-title h5">Arras</div>
+            <div class="card-subtitle text-gray">Ville</div>
+          </div>
+          <div class="card-image">
+            <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
+            <img src="https://live.staticflickr.com/65535/49760275928_78374e1c60_n.jpg" class="img-responsive">
+          </div>
+          <div class="card-body bg-secondary text-dark">
+            Arras est une commune française située dans le département du Pas-de-Calais en région Hauts-de-France.
+Elle est directement sous l'influence de l'« aire métropolitaine de Lille », ensemble métropolitain de près de 3,8 millions d'habitants dont le centre, la ville de Lille, ne se trouve qu'à 45 km.
+          </div>
+        </div>
+      </div>
 
-
-
+  
 
 
 
@@ -148,7 +168,7 @@ window.onload = function(){
                 dans le tableau ville, en début de fichier -->
           <div class="card-header">
             <div class="card-title h5">Marseille</div>
-            <div class="card-subtitle text-gray">Capitale</div>
+            <div class="card-subtitle text-gray">Capitale du rap</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
@@ -174,7 +194,26 @@ window.onload = function(){
             <img src="image/Dunkerque.png" class="img-responsive">
           </div>
           <div class="card-body bg-secondary text-dark">
-            Ville du Carnaval, dans le Nord
+            Ville stylée du Nord tkt mon reuf
+          </div>
+        </div>
+      </div>
+
+      <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
+        <div id="ville_Nemours" class="card bg-dark m-2">
+          <!--  L'id de la forme ville_A est nécessaire pour que le lien vers
+                la ville A fonctionne. Pensez à ajouter les coordonnées de A
+                dans le tableau ville, en début de fichier -->
+          <div class="card-header">
+            <div class="card-title h5">Nemours</div>
+            <div class="card-subtitle text-gray">Patrie de EL KLEINO</div>
+          </div>
+          <div class="card-image">
+            <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Nemours_-_panoramio.jpg" class="img-responsive">
+          </div>
+          <div class="card-body bg-secondary text-dark">
+            Petite bourgade sympathique, très agréable à vivre. Attention aux crocodiles mutants !
           </div>
         </div>
       </div>
