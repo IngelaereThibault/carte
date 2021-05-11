@@ -33,6 +33,7 @@ var villes = { // Seules les villes ajoutées dans ce tableau sont affichées su
   "Angres": {"lat": 50.410, "lon": 2.757},
   "Marseille":{ "lat":43.300, "lon": 5.400 },
   "Dunkerque":{ "lat":51.034368, "lon": 2.376776 },
+  "Strasbourg":{ "lat":48.5839200, "lon": 7.7455300 },
 };
 
 window.onload = function(){
@@ -199,6 +200,25 @@ window.onload = function(){
         </div>
       </div>
     </div>
+
+     <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
+        <div id="ville_Strasbourg" class="card bg-dark m-2">
+          <!--  L'id de la forme ville_A est nécessaire pour que le lien vers
+                la ville A fonctionne. Pensez à ajouter les coordonnées de A
+                dans le tableau ville, en début de fichier -->
+          <div class="card-header">
+            <div class="card-title h5">Strasbourg</div>
+            <div class="card-subtitle text-gray">Grande Ville</div>
+          </div>
+          <div class="card-image">
+            <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Strasbourg-RemiLeblond-PontsCouverts.JPG/360px-Strasbourg-RemiLeblond-PontsCouverts.JPG" class="img-responsive">
+          </div>
+          <div class="card-body bg-secondary text-dark">
+            Strasbourg est une commune française située dans la collectivité européenne d'Alsace. Elle est la préfecture du Bas-Rhin et le chef-lieu de la région Grand Est. Capitale de la région historique d'Alsace, elle est bordée par le Rhin et frontalière avec l'Allemagne.
+          </div>
+        </div>
+      </div>
 
     <p class="footer bg-secondary text-center">
   Site réalisé avec <a href="https://picturepan2.github.io/spectre/">Spectre CSS.</a>
