@@ -30,8 +30,17 @@ var villes = { // Seules les villes ajoutées dans ce tableau sont affichées su
   "Brest": { "lat": 48.383, "lon": -4.500 },
   "Quimper": { "lat": 48.000, "lon": -4.100 },
   "Bayonne": { "lat": 43.500, "lon": -1.467 },
+
   "Valence": {"lat":44.9232857, "lon":4.8813646}  ,  
     
+
+  "Angres": {"lat": 50.410, "lon": 2.757},
+  "Marseille":{ "lat":43.300, "lon": 5.400 },
+
+  "Nemours": { "lat":48.267151684741144, "lon": 2.6994020451843013},
+
+  "Dunkerque":{ "lat":51.034368, "lon": 2.376776 },
+
 };
 
 window.onload = function(){
@@ -53,7 +62,6 @@ window.onload = function(){
 			<!-- Ici s'affichera la carte -->
 		</div>
     <div class="columns">
-
       <!-- Début du div de la première ville -->
       <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <div id="ville_Paris" class="card bg-dark m-2">
@@ -106,7 +114,7 @@ window.onload = function(){
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Valence...%28d%C3%A9cembre_2012%29_004-001.JPG/1280px-Valence...%28d%C3%A9cembre_2012%29_004-001.JPG" class="img-responsive">
+            <img src="./image/valence.jpg" class="img-responsive">
           </div>
           <div class="card-body bg-secondary text-dark">
             Valence est une commune du sud-est de la France, préfecture du département de la Drôme en région Auvergne-Rhône-Alpes.
@@ -152,6 +160,74 @@ window.onload = function(){
         </div>
       </div>
 
+
+
+
+
+
+
+
+      <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
+        <div id="ville_Marseille" class="card bg-dark m-2">
+          <!--  L'id de la forme ville_A est nécessaire pour que le lien vers
+                la ville A fonctionne. Pensez à ajouter les coordonnées de A
+                dans le tableau ville, en début de fichier -->
+          <div class="card-header">
+            <div class="card-title h5">Marseille</div>
+            <div class="card-subtitle text-gray">Capitale du rap</div>
+          </div>
+          <div class="card-image">
+            <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
+            <img src="./image/1280px-Marseille_-_Vieux-Port2-320x200.jpg" class="img-responsive">
+          </div>
+          <div class="card-body bg-secondary text-dark">
+            Ville du rap, où vous pouvez trouver Jul en Y sur un T-Max
+          </div>
+        </div>
+      </div>
+
+      <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
+        <div id="ville_Nemours" class="card bg-dark m-2">
+          <!--  L'id de la forme ville_A est nécessaire pour que le lien vers
+                la ville A fonctionne. Pensez à ajouter les coordonnées de A
+                dans le tableau ville, en début de fichier -->
+          <div class="card-header">
+            <div class="card-title h5">Nemours</div>
+            <div class="card-subtitle text-gray">Patrie de EL KLEINO</div>
+          </div>
+          <div class="card-image">
+            <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Nemours_-_panoramio.jpg" class="img-responsive">
+          </div>
+          <div class="card-body bg-secondary text-dark">
+
+            Petite bourgade sympathique, très agréable à vivre. Attention aux crocodiles mutants !
+
+            Ville du Carnaval, dans le Nord
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
+      <div id="ville_Angres" class="card bg-dark m-2">
+        <!--  L'id de la forme ville_A est nécessaire pour que le lien vers
+              la ville A fonctionne. Pensez à ajouter les coordonnées de A
+              dans le tableau ville, en début de fichier -->
+        <div class="card-header">
+          <div class="card-title h5">Angres</div>
+          <div class="card-subtitle text-gray">Ville</div>
+        </div>
+        <div class="card-image">
+          <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
+          <img src="image/angres.jpg" class="img-responsive">
+        </div>
+        <div class="card-body bg-secondary text-dark">
+         Ville de Angres, située dans le Pas-de-Calais
+        </div>
+      </div>
     </div>
 
     <p class="footer bg-secondary text-center">
