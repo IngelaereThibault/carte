@@ -38,6 +38,7 @@ var villes = { // Seules les villes ajoutées dans ce tableau sont affichées su
   "Lille": {"lat":50.633333, "lon":3.066667},
   "Strasbourg":{ "lat":48.5839200, "lon": 7.7455300 },
   "Arras": { "lat": 50.293974597340544, "lon": 2.7680332541245694},
+  "Rouen": {"lat": 49.4431, "lon": 1.0993 },
 };
 
 window.onload = function(){
@@ -156,12 +157,28 @@ window.onload = function(){
           </div>
         </div>
       </div>
+
+      <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
+        <div id="ville_Rouen" class="card bg-dark m-2">
       <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <div id="ville_Lille" class="card bg-dark m-2">
           <!--  L'id de la forme ville_A est nécessaire pour que le lien vers
                 la ville A fonctionne. Pensez à ajouter les coordonnées de A
                 dans le tableau ville, en début de fichier -->
           <div class="card-header">
+            <div class="card-title h5">Rouen</div>
+            <div class="card-subtitle text-gray">Commune</div>
+          </div>
+          <div class="card-image">
+            <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Rouen_%2837903223574%29.jpg class="img-responsive">
+          </div>
+          <div class="card-body bg-secondary text-dark">
+            Rouen est une commune du Nord-Ouest de la France traversée par la Seine. Préfecture du département de la Seine-Maritime, elle est le chef-lieu de la Normandie réunifiée après avoir été, de 1956 à 2015, celui de la Haute-Normandie.
+          </div>
+        </div>
+      </div>
+
             <div class="card-title h5">Lille</div>
             <div class="card-subtitle text-gray">Nord</div>
           </div>
@@ -174,6 +191,7 @@ window.onload = function(){
           </div>
         </div>
       </div>
+
   
 
 
