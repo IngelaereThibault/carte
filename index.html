@@ -30,13 +30,18 @@ var villes = { // Seules les villes ajoutées dans ce tableau sont affichées su
   "Brest": { "lat": 48.383, "lon": -4.500 },
   "Quimper": { "lat": 48.000, "lon": -4.100 },
   "Bayonne": { "lat": 43.500, "lon": -1.467 },
+  "Valence": {"lat":44.9232857, "lon":4.8813646},  
   "Angres": {"lat": 50.410, "lon": 2.757},
   "Marseille":{ "lat":43.300, "lon": 5.400 },
-<<<<<<< HEAD
   "Nemours": { "lat":48.267151684741144, "lon": 2.6994020451843013},
-=======
   "Dunkerque":{ "lat":51.034368, "lon": 2.376776 },
->>>>>>> 5dd5a81cbfa3bdc016568cbb966d26f7fa78bf34
+  "Nice":{ "lat":43.7031, "lon": 7.2661 },
+  "Lille": {"lat":50.633333, "lon":3.066667},
+  "Strasbourg":{ "lat":48.5839200, "lon": 7.7455300 },
+  "Arras": { "lat": 50.293974597340544, "lon": 2.7680332541245694},
+  "Rouen": {"lat": 49.4431, "lon": 1.0993 },
+  "Divion": {"lat": 50.4667, "lon": 2.5 },
+  "Fléchin": {"lat": 50.55, "lon": 2.2833 },
 };
 
 window.onload = function(){
@@ -98,6 +103,25 @@ window.onload = function(){
           </div>
         </div>
       </div>
+        
+         <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
+        <div id="ville_Valence" class="card bg-dark m-2">
+          <!--  L'id de la forme ville_A est nécessaire pour que le lien vers
+                la ville A fonctionne. Pensez à ajouter les coordonnées de A
+                dans le tableau ville, en début de fichier -->
+          <div class="card-header">
+            <div class="card-title h5">Valence</div>
+            <div class="card-subtitle text-gray">Tessa D.</div>
+          </div>
+          <div class="card-image">
+            <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
+            <img src="./image/valence.jpg" class="img-responsive">
+          </div>
+          <div class="card-body bg-secondary text-dark">
+            Valence est une commune du sud-est de la France, préfecture du département de la Drôme en région Auvergne-Rhône-Alpes.
+          </div>
+        </div>
+      </div>
 
       <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <div id="ville_Quimper" class="card bg-dark m-2">
@@ -137,12 +161,63 @@ window.onload = function(){
         </div>
       </div>
 
+      <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
+        <div id="ville_Arras" class="card bg-dark m-2">
+          <!--  L'id de la forme ville_A est nécessaire pour que le lien vers
+                la ville A fonctionne. Pensez à ajouter les coordonnées de A
+                dans le tableau ville, en début de fichier -->
+          <div class="card-header">
+            <div class="card-title h5">Arras</div>
+            <div class="card-subtitle text-gray">Arthur D.</div>
+          </div>
+          <div class="card-image">
+            <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
+            <img src="image/Arras.png" class="img-responsive">
+          </div>
+          <div class="card-body bg-secondary text-dark">
+            Arras est une commune française située dans le département du Pas-de-Calais en région Hauts-de-France.
+          </div>
+        </div>
+      </div>
 
+      <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
+        <div id="ville_Rouen" class="card bg-dark m-2">
+          <!--  L'id de la forme ville_A est nécessaire pour que le lien vers
+                la ville A fonctionne. Pensez à ajouter les coordonnées de A
+                dans le tableau ville, en début de fichier -->
+          <div class="card-header">
+            <div class="card-title h5">Rouen</div>
+            <div class="card-subtitle text-gray">Héloîse L.</div>
+          </div>
+          <div class="card-image">
+            <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
+            <img src="image/Rouen.jpg" class="img-responsive">
+          </div>
+          <div class="card-body bg-secondary text-dark">
+            Rouen est une commune du Nord-Ouest de la France traversée par la Seine. 
+          </div>
+        </div>
+      </div>
 
-
-
-
-
+  
+      <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
+        <div id="ville_Lille" class="card bg-dark m-2">
+          <!--  L'id de la forme ville_A est nécessaire pour que le lien vers
+                la ville A fonctionne. Pensez à ajouter les coordonnées de A
+                dans le tableau ville, en début de fichier -->
+          <div class="card-header">
+            <div class="card-title h5">Lille</div>
+            <div class="card-subtitle text-gray">Ines R.</div>
+          </div>
+          <div class="card-image">
+            <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
+            <img src="image/lille.jpg" class="img-responsive">
+          </div>
+          <div class="card-body bg-secondary text-dark">
+            Ville de la bière.
+          </div>
+        </div>
+      </div>
 
       <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <div id="ville_Marseille" class="card bg-dark m-2">
@@ -151,7 +226,7 @@ window.onload = function(){
                 dans le tableau ville, en début de fichier -->
           <div class="card-header">
             <div class="card-title h5">Marseille</div>
-            <div class="card-subtitle text-gray">Capitale du rap</div>
+            <div class="card-subtitle text-gray">Louis G.</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
@@ -163,6 +238,7 @@ window.onload = function(){
         </div>
       </div>
 
+
       <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
         <div id="ville_Dunkerque" class="card bg-dark m-2">
           <!--  L'id de la forme ville_A est nécessaire pour que le lien vers
@@ -170,7 +246,7 @@ window.onload = function(){
                 dans le tableau ville, en début de fichier -->
           <div class="card-header">
             <div class="card-title h5">Dunkerque</div>
-            <div class="card-subtitle text-gray">Nord</div>
+            <div class="card-subtitle text-gray">Thibault I.</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
@@ -189,14 +265,16 @@ window.onload = function(){
                 dans le tableau ville, en début de fichier -->
           <div class="card-header">
             <div class="card-title h5">Nemours</div>
-            <div class="card-subtitle text-gray">Patrie de EL KLEINO</div>
+            <div class="card-subtitle text-gray">Lucas B.</div>
           </div>
           <div class="card-image">
             <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
-            <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Nemours_-_panoramio.jpg" class="img-responsive">
+            <img src="image/Nemours.png" class="img-responsive">
           </div>
           <div class="card-body bg-secondary text-dark">
+
             Petite bourgade sympathique, très agréable à vivre. Attention aux crocodiles mutants !
+
           </div>
         </div>
       </div>
@@ -211,7 +289,7 @@ window.onload = function(){
               dans le tableau ville, en début de fichier -->
         <div class="card-header">
           <div class="card-title h5">Angres</div>
-          <div class="card-subtitle text-gray">Ville</div>
+          <div class="card-subtitle text-gray">Cyril R.</div>
         </div>
         <div class="card-image">
           <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
@@ -225,10 +303,13 @@ window.onload = function(){
 
     <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
       <div id="ville_Bergues" class="card bg-dark m-2">
+      <div id="ville_Nice" class="card bg-dark m-2">
+
         <!--  L'id de la forme ville_A est nécessaire pour que le lien vers
               la ville A fonctionne. Pensez à ajouter les coordonnées de A
               dans le tableau ville, en début de fichier -->
         <div class="card-header">
+
           <div class="card-title h5">Bergues</div>
           <div class="card-subtitle text-gray">Ville des chtis</div>
         </div>
@@ -238,10 +319,75 @@ window.onload = function(){
         </div>
         <div class="card-body bg-secondary text-dark">
           Eul frite eul fricadelle
+          <div class="card-title h5">Nice</div>
+          <div class="card-subtitle text-gray">Timothée H.</div>
+        </div>
+        <div class="card-image">
+          <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
+          <img src="image/vendome-nice-.jpg" class="img-responsive">
+        </div>
+        <div class="card-body bg-secondary text-dark">
+          Nice est la capitale du département des Alpes-Maritimes sur la Côte d'Azur.
         </div>
       </div>
     </div>
 
+     <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
+        <div id="ville_Strasbourg" class="card bg-dark m-2">
+          <!--  L'id de la forme ville_A est nécessaire pour que le lien vers
+                la ville A fonctionne. Pensez à ajouter les coordonnées de A
+                dans le tableau ville, en début de fichier -->
+          <div class="card-header">
+            <div class="card-title h5">Strasbourg</div>
+            <div class="card-subtitle text-gray">Thomas B.</div>
+          </div>
+          <div class="card-image">
+            <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
+            <img src="image/Strasbourg.jpg.png" class="img-responsive">
+          </div>
+          <div class="card-body bg-secondary text-dark">
+            Strasbourg est une commune française située dans la collectivité européenne d'Alsace.
+          </div>
+        </div>
+      </div>
+
+      <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
+        <div id="ville_Divion" class="card bg-dark m-2">
+          <!--  L'id de la forme ville_A est nécessaire pour que le lien vers
+                la ville A fonctionne. Pensez à ajouter les coordonnées de A
+                dans le tableau ville, en début de fichier -->
+          <div class="card-header">
+            <div class="card-title h5">Divion</div>
+            <div class="card-subtitle text-gray">Yohann F.</div>
+          </div>
+          <div class="card-image">
+            <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
+            <img src="image/Divion.png" class="img-responsive">
+          </div>
+          <div class="card-body bg-secondary text-dark">
+            Divion est une commune française située dans le département du Pas-de-Calais en région Hauts-de-France.
+          </div>
+        </div>
+      </div>
+
+      <div class="column col-xs-12 col-sm-6 col-md-3 col-2 col-lg-1">
+        <div id="ville_Flechin" class="card bg-dark m-2">
+          <!--  L'id de la forme ville_A est nécessaire pour que le lien vers
+                la ville A fonctionne. Pensez à ajouter les coordonnées de A
+                dans le tableau ville, en début de fichier -->
+          <div class="card-header">
+            <div class="card-title h5">Fléchin</div>
+            <div class="card-subtitle text-gray">Ethan C.</div>
+          </div>
+          <div class="card-image">
+            <!-- Utilisez de préférence des images de taille identique partout (ici : 320x200)-->
+            <img src="image/Flechin.png" class="img-responsive">
+          </div>
+          <div class="card-body bg-secondary text-dark">
+            Fléchin est une commune française située dans le département du Pas-de-Calais en région Hauts-de-France.
+          </div>
+        </div>
+      </div>
     <p class="footer bg-secondary text-center">
   Site réalisé avec <a href="https://picturepan2.github.io/spectre/">Spectre CSS.</a>
   Carte OpenStreetMap gérée avec Leaflet (<a href="https://nouvelle-techno.fr/actualites/2018/05/11/pas-a-pas-inserer-une-carte-openstreetmap-sur-votre-site">tuto</a>)
